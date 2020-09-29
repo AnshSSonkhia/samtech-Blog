@@ -1,14 +1,10 @@
-import requests
-from config import Config
-from .models import Quotes
+import urllib.request,json
+get_quote_url ='http://quotes.stormconsultancy.co.uk/random.json'
 
-quotes_url = Config.QUOTE_URL
+def get_quote():
 
-def getQuotes():
-  random_quote = requests.get(quotes_url)
-  new_quote = random_quote.json()
-  author = new_quote.get("author")
-  quote = new_quote.get("quote")
-  permalink = new_quote.get("permalink")
-  quote_object = Quotes(author,quote,permalink)
-  return quote_object
+    with urllib.request.urlopen(get_quote_url) as url:
+        get_quote_data = url.read()
+        get_quote_response = json.loads(get_quote_data)
+
+    return get_quote_response
