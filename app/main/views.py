@@ -5,7 +5,7 @@ from . import main
 from .forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm, CommentsForm
 from ..models import User, Post, Comment,db
 from flask_login import login_user, current_user, logout_user, login_required
-from ..request import get_quote
+from ..requests import get_quote
 from app import bcrypt
 
 @main.route("/")

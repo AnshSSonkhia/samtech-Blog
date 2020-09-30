@@ -1,3 +1,9 @@
+// {
+//     "python.pythonPath": "/home/moringa/Desktop/moringa-prj/core/flask-prj/samtech-Blog/virtual/bin/python3.8"
+// }
 {
-    "python.pythonPath": "/home/moringa/Desktop/moringa-prj/core/flask-prj/samtech-Blog/virtual/bin/python3.8"
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint-flask"
+    ]
 }
