@@ -14,7 +14,7 @@ Matata Samuel.
 ### Functions of the Web application
 1. As a new user you can sign up and create a new account.
 
-2. As a user can you log in to an account you created.
+2. As a user you can log in to an account you created.
 
 3. As a user you can update your account.
 
@@ -22,7 +22,7 @@ Matata Samuel.
 
 5. As a user you can view the blogs and quotes you have created in your own profile.
 
-6. As a user you can see the blogs other users have posted and leave a comment.
+6. As a user you can see the blogs other users have posted and you can leave a comment.
 
 
 ## Setup/Installation Requirements
